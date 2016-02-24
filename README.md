@@ -15,21 +15,21 @@ This project is called Ped101.
 In addition to the Arduino 101 IMU, Ped101 will also display the current ambient temperature. This data is obtained from a Dallas Semiconductor DS18B20 one-wire temperature sensor. A four-digit, serial 7-segment LED display is used for conveying these data to the runner. There are four updated data displays: steps, distance (in hundredths of a mile), time (in seconds), and temperature (in degrees Fahrenheit). Finally, a 9V battery is used for powering Ped101.
 
 ##Parts
-
-*Arduino 101 (SparkFun Electronics DEV-13787)
-*DS18B20 One-Wire temperature sensor (SFE SEN-00245)
-*Serial four-digit, 7-segment LED display (SFE COM-11443)
-*3 - Male-Male jumper wires (SFE PRT-12795)
-*4.7K resistor (Mouser Yageo; mouser.com)
-*9V battery & barrel connector (SFE PRT-10512 or, littleBits power connector)
-
+<ul>
+<li>Arduino 101 (SparkFun Electronics DEV-13787)
+<li>DS18B20 One-Wire temperature sensor (SFE SEN-00245)
+<li>Serial four-digit, 7-segment LED display (SFE COM-11443)
+<li>3 - Male-Male jumper wires (SFE PRT-12795)
+<li>4.7K resistor (Mouser Yageo; mouser.com)
+<li>9V battery & barrel connector (SFE PRT-10512 or, littleBits power connector)
+</ul>
 Three 3D printable STL files:
-
-*Box
-*Lid
-*Straps & washers (for mounting Ped101 on hand grip or belt)
-*4x40 mounting hardware
-
+<ul>
+<li>Box
+<li>Lid
+<li>Straps & washers (for mounting Ped101 on hand grip or belt)
+<li>4x40 mounting hardware
+</ul>
 <b>NOTE:</b> The serial LED display used for Ped101 has been updated and the new version might not fit inside the 3D printed lid.
 
 ##Step-by-Step
@@ -43,15 +43,15 @@ Three 3D printable STL files:
 4. Solder the remaining three wires to the three legs of the DS18B20.
 
 5. Plug the male ends of each jumper wire into the Arduino 101 like so:
+<ul>
+<li>Arduino 3.3V -> Serial 7-Segment VCC
+<li>Arduino GND -> Serial 7-Segment GND 
+<li>Arduino 8 -> Serial 7-Segment RX
 
-*Arduino 3.3V -> Serial 7-Segment VCC
-*Arduino GND -> Serial 7-Segment GND 
-*Arduino 8 -> Serial 7-Segment RX
-
-*Arduino 5V -> DS18B20 VDD (pin #3)
-*Arduino 10 -> DS18B20 DQ (pin #2)
-*Arduino GND -> DS18B20 GND (pin #1)
-
+<li>Arduino 5V -> DS18B20 VDD (pin #3)
+<Li>Arduino 10 -> DS18B20 DQ (pin #2)
+<li>Arduino GND -> DS18B20 GND (pin #1)
+</ul>
 6. Enter your stride length in the Arduino code at the appropriate variable. This length is measured in inches.
 
 7. Attach the Arduino 101 to your computer and upload the Ped101 code to the device.
