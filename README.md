@@ -16,19 +16,19 @@ In addition to the Arduino 101 IMU, Ped101 will also display the current ambient
 
 ##Parts
 
--Arduino 101 (SparkFun Electronics DEV-13787)
--DS18B20 One-Wire temperature sensor (SFE SEN-00245)
--Serial four-digit, 7-segment LED display (SFE COM-11443)
--3 - Male-Male jumper wires (SFE PRT-12795)
--4.7K resistor (Mouser Yageo; mouser.com)
--9V battery & barrel connector (SFE PRT-10512 or, littleBits power connector)
+*Arduino 101 (SparkFun Electronics DEV-13787)
+*DS18B20 One-Wire temperature sensor (SFE SEN-00245)
+*Serial four-digit, 7-segment LED display (SFE COM-11443)
+*3 - Male-Male jumper wires (SFE PRT-12795)
+*4.7K resistor (Mouser Yageo; mouser.com)
+*9V battery & barrel connector (SFE PRT-10512 or, littleBits power connector)
 
 Three 3D printable STL files:
 
--Box
--Lid
--Straps & washers (for mounting Ped101 on hand grip or belt)
--4x40 mounting hardware
+*Box
+*Lid
+*Straps & washers (for mounting Ped101 on hand grip or belt)
+*4x40 mounting hardware
 
 <b>NOTE:</b> The serial LED display used for Ped101 has been updated and the new version might not fit inside the 3D printed lid.
 
@@ -44,13 +44,13 @@ Three 3D printable STL files:
 
 5. Plug the male ends of each jumper wire into the Arduino 101 like so:
 
-Arduino 3.3V -> Serial 7-Segment VCC
-Arduino GND -> Serial 7-Segment GND 
-Arduino 8 -> Serial 7-Segment RX
+*Arduino 3.3V -> Serial 7-Segment VCC
+*Arduino GND -> Serial 7-Segment GND 
+*Arduino 8 -> Serial 7-Segment RX
 
-Arduino 5V -> DS18B20 VDD (pin #3)
-Arduino 10 -> DS18B20 DQ (pin #2)
-Arduino GND -> DS18B20 GND (pin #1)
+*Arduino 5V -> DS18B20 VDD (pin #3)
+*Arduino 10 -> DS18B20 DQ (pin #2)
+*Arduino GND -> DS18B20 GND (pin #1)
 
 6. Enter your stride length in the Arduino code at the appropriate variable. This length is measured in inches.
 
