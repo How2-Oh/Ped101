@@ -43,17 +43,19 @@ Three 3D printable STL files:
 4. Solder the remaining three wires to the three legs of the DS18B20.
 
 5. Plug the male ends of each jumper wire into the Arduino 101 like so:
-<ul>
-<li>Arduino 3.3V -> Serial 7-Segment VCC
-<li>Arduino GND -> Serial 7-Segment GND 
-<li>Arduino 8 -> Serial 7-Segment RX
 
-<li>Arduino 5V -> DS18B20 VDD (pin #3)
-<Li>Arduino 10 -> DS18B20 DQ (pin #2)
-<li>Arduino GND -> DS18B20 GND (pin #1)
+<ul>
+<li>Arduino 3.3V - Serial 7-Segment VCC
+<li>Arduino GND - Serial 7-Segment GND 
+<li>Arduino 8 - Serial 7-Segment RX
+</ul>
+<ul>
+<li>Arduino 5V - DS18B20 VDD (pin #3)
+<Li>Arduino 10 - DS18B20 DQ (pin #2)
+<li>Arduino GND - DS18B20 GND (pin #1)
 </ul>
 
-<p>6. Enter your stride length in the Arduino code at the appropriate variable. This length is measured in inches.</p>
+6. Enter your stride length in the Arduino code at the appropriate variable. This length is measured in inches.
 
 7. Attach the Arduino 101 to your computer and upload the Ped101 code to the device.
 
