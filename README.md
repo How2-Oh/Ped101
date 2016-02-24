@@ -52,7 +52,8 @@ Three 3D printable STL files:
 <Li>Arduino 10 -> DS18B20 DQ (pin #2)
 <li>Arduino GND -> DS18B20 GND (pin #1)
 </ul>
-6. Enter your stride length in the Arduino code at the appropriate variable. This length is measured in inches.
+
+<p>6. Enter your stride length in the Arduino code at the appropriate variable. This length is measured in inches.</p>
 
 7. Attach the Arduino 101 to your computer and upload the Ped101 code to the device.
 
